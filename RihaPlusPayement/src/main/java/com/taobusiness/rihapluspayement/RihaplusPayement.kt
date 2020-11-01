@@ -170,13 +170,11 @@ class RihaplusPayement(): DialogFragment() {
             if (progress < 100 ) {
                 progressBar.visibility = View.VISIBLE
                 webView.visibility = View.INVISIBLE
-//                rihaPlusProgress.show(childFragmentManager, TAG)
             }
 
             if (progress == 100) {
                 progressBar.visibility = View.INVISIBLE
                 webView.visibility = View.VISIBLE
-//                rihaPlusProgress.dismiss()
             }
         }
     }
